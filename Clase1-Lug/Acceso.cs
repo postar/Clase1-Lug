@@ -13,7 +13,7 @@ namespace Clase1_Lug
         public void Abrir()
         {
             conexion = new SqlConnection();
-            conexion.ConnectionString = "Initial Catalog=Base; Data Source=.SQLEXPRESS; Integrated Security=SSPI; ";
+            conexion.ConnectionString = "Data Source =.\sqlexpress; Initial Catalog = LUG; Integrated Security = SSIP";
             conexion.Open();
         }
         public void Cerrar()

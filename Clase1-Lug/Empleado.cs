@@ -78,8 +78,5 @@ namespace Clase1_Lug
             acceso.Cerrar();
             return empleados;
         }
-
-
-
     }
 }
